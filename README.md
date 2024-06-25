@@ -4,4 +4,5 @@ $ python3 -m pip install -U pybaseball --user
 
 Python version 3.11.1
 
-Test
+local folder: pybaseball_new2
+github repo: pybaseball

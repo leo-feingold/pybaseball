@@ -9,7 +9,7 @@ from pybaseball import statcast_batter
 from pybaseball import playerid_lookup
 
 dateInitial = '2024-03-28'
-dateEnd = '2024-06-4'
+dateEnd = '2024-06-26'
 firstName = 'Aaron'.title()
 lastName = 'Judge'.title()
 

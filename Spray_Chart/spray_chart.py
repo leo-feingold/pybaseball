@@ -8,6 +8,7 @@ import warnings
 import plotly.express as px
 import plotly.graph_objects as go
 
+#red_sox
 firstName = 'Anthony'.title()
 lastName = 'Volpe'.title()
 playerTeam = 'yankees'.lower()
@@ -37,7 +38,7 @@ def filterData(df):
 
 def plotStadium(df, team):
     fig, ax = plt.subplots()
-    stadium = pd.read_csv('/Users/leofeingold/Desktop/pybaseball/Spray Chart/mlbstadiums.csv')
+    stadium = pd.read_csv('/Users/leofeingold/Desktop/pybaseball/Spray_Chart/mlbstadiums.csv')
     team_df = stadium[stadium['team'] == team.lower()]
     for i in stadium['segment'].unique():
         data = team_df[team_df['segment'] == i]

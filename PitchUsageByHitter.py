@@ -173,8 +173,8 @@ def visualize_data(df, xfip_L, xfip_R):
 
 def main():
     data = scrape_data(date_initial, date_final)
-    LHH_path = "/Users/leofeingold/Desktop/pybaseball/Lefty Righty Splits CSV/21Through23LHHAdvanced.csv"
-    RHH_path = "/Users/leofeingold/Desktop/pybaseball/Lefty Righty Splits CSV/21Through23RHHAdvanced.csv"
+    LHH_path = "/Users/leofeingold/Desktop/pybaseball/Lefty_Righty_Splits_CSV/21Through23LHHAdvanced.csv"
+    RHH_path = "/Users/leofeingold/Desktop/pybaseball/Lefty_Righty_Splits_CSV/21Through23RHHAdvanced.csv"
     xFIP_LHH, xFIP_RHH = calc_xfip_splits(LHH_path, RHH_path, 20, f"{player_first_name} {player_last_name}", season)
     cleaned_data = clean_data(data)
     final_df = visualize_data(cleaned_data, xFIP_LHH, xFIP_RHH)

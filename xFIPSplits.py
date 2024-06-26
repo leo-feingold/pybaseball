@@ -4,11 +4,11 @@ min_IP = 10
 name = "Aaron Nola"
 
 
-LHH_path = "/Users/leofeingold/Desktop/pybaseball/Lefty Righty Splits CSV/21Through23LHHAdvanced.csv"
+LHH_path = "/Users/leofeingold/Desktop/pybaseball/Lefty_Righty_Splits_CSV/21Through23LHHAdvanced.csv"
 LHH_df = pd.read_csv(LHH_path)
 #LHH_df = LHH_df[LHH_df["Season"] == season]
 
-RHH_path = "/Users/leofeingold/Desktop/pybaseball/Lefty Righty Splits CSV/21Through23RHHAdvanced.csv"
+RHH_path = "/Users/leofeingold/Desktop/pybaseball/Lefty_Righty_Splits_CSV/21Through23RHHAdvanced.csv"
 RHH_df = pd.read_csv(RHH_path)
 #RHH_df = RHH_df[RHH_df["Season"] == season]
 

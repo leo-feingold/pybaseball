@@ -50,10 +50,10 @@ def mergeData(df, sorted_df):
 
 def main():
     #data = scrapeData(start=dateInitial, end=dateEnd)
-    csv = "/Users/leofeingold/Desktop/pybaseball/Stuff Metric/2023-6-1To2024-06-1.csv"
+    csv = "/Users/leofeingold/Desktop/pybaseball/Stuff_CSV/2020-7-23To2024-06-1FullStatcastData.csv"
     df = loadData(csv)
     df, df_sorted = sortData(df)
-    df_sorted.to_csv("test.csv")
+    #df_sorted.to_csv("test.csv")
     visualizeData(df_sorted)
     good_df = mergeData(df, df_sorted)
 
